@@ -1,15 +1,15 @@
-# NIRUX Theme: Hackerman Modern
+# NIRUX Theme: Hackerman Retro
 
 A NIRUX suite theme pack.
 
-- Theme ID: `niru-hackerman-modern`
-- Display name: **Niru Hackerman Modern**
+- Theme ID: `niru-hackerman-retro`
+- Display name: **Niru Hackerman Retro**
 - Background: `#0b0810`
 - Foreground: `#e6ddea`
 - Muted: `#8f7f99`
 - Border: `#38233f`
 - Focus: `#e044b7`
-- Wallpaper: `nirux-wallpaper-hackerman-modern-4k.png` (3840×2160)
+- Wallpaper: `nirux-wallpaper-hackerman-retro-4k.png` (3840×2160)
 
 ## Install
 
@@ -17,7 +17,7 @@ NIRUX must be installed and `niructl` must be in `PATH`.
 
 ```sh
 ./install.sh
-niructl theme niru-hackerman-modern
+niructl theme niru-hackerman-retro
 ```
 
 The installer uses `niructl theme-import`, so it validates the theme and
@@ -28,7 +28,7 @@ To replace an existing installation after a pack update:
 
 ```sh
 ./install.sh --replace
-niructl theme niru-hackerman-modern
+niructl theme niru-hackerman-retro
 ```
 
 ## Uninstall

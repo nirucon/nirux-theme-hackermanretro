@@ -14,7 +14,7 @@ NIRUCTL=$(command -v niructl 2>/dev/null || :)
   printf 'niructl is required. Install NIRUX first.\n' >&2
   exit 1
 }
-"$NIRUCTL" theme-import "$here/themes/niru-hackerman-modern.toml" \
-  --id niru-hackerman-modern \
-  --wallpaper "$here/wallpapers/nirux-wallpaper-hackerman-modern-4k.png" $replace
-printf 'Installed Niru Hackerman Modern. Select it with: niructl theme niru-hackerman-modern\n'
+"$NIRUCTL" theme-import "$here/themes/niru-hackerman-retro.toml" \
+  --id niru-hackerman-retro \
+  --wallpaper "$here/wallpapers/nirux-wallpaper-hackerman-retro-4k.png" $replace
+printf 'Installed Niru Hackerman Retro. Select it with: niructl theme niru-hackerman-retro\n'

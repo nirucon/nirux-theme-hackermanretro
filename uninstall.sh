@@ -7,5 +7,5 @@ NIRUCTL=$(command -v niructl 2>/dev/null || :)
   printf 'niructl is required.\n' >&2
   exit 1
 }
-"$NIRUCTL" theme-remove niru-hackerman-modern
-printf 'Removed Niru Hackerman Modern.\n'
+"$NIRUCTL" theme-remove niru-hackerman-retro
+printf 'Removed Niru Hackerman Retro.\n'
